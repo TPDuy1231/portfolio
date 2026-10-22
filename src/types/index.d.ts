@@ -20,10 +20,6 @@ export type TTestimonial = {
 
 export type TProject = {
   description: string;
-  tags: {
-    name: string;
-    color: string;
-  }[];
   image: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
